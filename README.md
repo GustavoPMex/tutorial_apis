@@ -22,7 +22,10 @@ pip install -r /path/to/requirements.txt
 
 ### Run project
 ```
-py manage.py runserver
+-> py manage.py migrate
+-> py manage.py makemigrations
+-> py manage.py migrate
+-> py manage.py runserver
 ```
 
 <br>
